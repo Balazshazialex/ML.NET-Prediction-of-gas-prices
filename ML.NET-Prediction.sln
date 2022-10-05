@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML.NET-Prediction", "ML.NET-Prediction\ML.NET-Prediction.csproj", "{592C544C-D8C5-4BD5-BD03-0DB535C9CCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{592C544C-D8C5-4BD5-BD03-0DB535C9CCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592C544C-D8C5-4BD5-BD03-0DB535C9CCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592C544C-D8C5-4BD5-BD03-0DB535C9CCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592C544C-D8C5-4BD5-BD03-0DB535C9CCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C569A7-D04D-4576-A423-C0E4819809F5}
+	EndGlobalSection
+EndGlobal
