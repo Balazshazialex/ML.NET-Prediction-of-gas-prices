@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ML.NET_Prediction.Service;
+public class Program
+{
+    public static void Main()
+    {
+        var list=PredictionService.CreateTestData(null);
+        var val=PredictionService.PredictionWrapper(list, 1590f);
+        var ok = 0;
+    }
+}
