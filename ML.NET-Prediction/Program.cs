@@ -5,6 +5,5 @@ public class Program
     {
         var list=PredictionService.CreateTestData(null);
         var val=PredictionService.PredictionWrapper(list, 1590f);
-        var ok = 0;
     }
 }

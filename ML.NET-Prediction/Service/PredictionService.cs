@@ -35,7 +35,7 @@ namespace ML.NET_Prediction.Service
         {
             MLContext mlContext = new MLContext(seed: 0);
             var model = Train(mlContext, dataInitial);
-            SaveModel(mlContext, dataInitial, model);
+            //SaveModel(mlContext, dataInitial, model);
             // If you want to use the already trained model, comment out the train and save part and just uncomment the Load part
             // model=LoadModel(mlContext);
             var prediction = Predict(mlContext, model, valueToPredict);
